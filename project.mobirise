@@ -26,7 +26,7 @@
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/images-1-128x128.png",
     "noImageResize": ""
   },
   "pages": {
@@ -134,11 +134,11 @@
           "_anchor": "header1-7",
           "_params": {
             "parallax": false,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/d4c25b43c659d0adab33f6eeb4256b8a-2000x2000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/-kr-2000x1333.jpg",
             "bgColor": "#00a885",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -152,7 +152,7 @@
             "showButtons": true
           },
           "title": "TIJIL FASHIONS ONLINE STORE",
-          "text": "GREAT FASHION, GREAT PRICES, DESIGNE FOR YOU<br>We bring fashion authority and credentials through our Private Label Collection, collaborations with high profile designers &amp; the best of famous young brands, designed and curated by strong design &amp; creative team based internationally; making the Tijil brand truly aspirational and authentic.<br>Our's is an established business led by an entrepreneurial and experienced senior team with track record of building e-commerce businesses.<br><br><br>",
+          "text": "<b>GREAT FASHION, GREAT PRICES, DESIGN FOR YOU<br></b>We bring fashion authority and credentials through our Private Label Collection, collaborations with high profile designers &amp; the best of famous young brands, designed and curated by strong design &amp; creative team based internationally; making the Tijil brand truly aspirational and authentic.<br>Our's is an established business led by an entrepreneurial and experienced senior team with track record of building e-commerce businesses.<br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AMAZON BUSINESS LINK</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FIND YOUR CLOTHING</a>"
         },
         {
@@ -164,10 +164,10 @@
           "_params": {
             "imageSize": 50,
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/_kr-2000x1619.jpg",
+            "bgColor": "#e25041",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -185,7 +185,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/images-1-1400x1400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/-kr-1-1400x2100.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -203,9 +203,9 @@
               "size": 250
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "Our leads in Customer Experience &amp; Engagement with editorial lifestyle content and over 2.4m social media followers (3x higher than the nearest competitor – Meltwater) and the highest Net Promoter Score (56% Redseer) in the online fashion vertical. In November 2018, &nbsp;We are ranked best for customer experience. <br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "INDIA IS THE MOST EXCITING MARKET IN THE WORLD<div><br></div>",
+          "text": "Our leads in Customer Experience &amp; Engagement with editorial lifestyle content and over 2.4m social media followers (3x higher than the nearest competitor – Meltwater) and the highest Net Promoter Score (56% Redseer) in the online fashion vertical. In November 2018, &nbsp;We are ranked best for customer experience. <br>India is a market of young, aspirational and digitally savvy consumers – 65% of its 1.3 billion population is under 35 and India has the largest number of Facebook users in the world: 241m (vs. 240m in the US).<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_inherit": "gallery1",
@@ -214,9 +214,29 @@
           ],
           "_name": "gallery3",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kr-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-kr-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vintge-antique-sterling-silver-rings-at-the-jewelry-ladys-store-2000x4045-800x1618.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vintge-antique-sterling-silver-rings-at-the-jewelry-ladys-store-2000x4045.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
               {
                 "tags": "Awesome",
                 "playVideo": false,
@@ -225,73 +245,50 @@
                 "thumb": "@PROJECT_PATH@/assets/images/elevate-women-navy-poly-cotton-sdl958830930-1-cb3c4-2000x2341-800x936.png",
                 "image": "@PROJECT_PATH@/assets/images/elevate-women-navy-poly-cotton-sdl958830930-1-cb3c4-2000x2341.png",
                 "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
+                "active": false
               },
               {
                 "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
+                "thumb": "@PROJECT_PATH@/assets/images/kr-2-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-kr-2-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
+                "thumb": "@PROJECT_PATH@/assets/images/lady-s-fashion-shop-colourful-national-costumes-racks-interior-view-clothing-hongkong-china-asia-2000x1263-800x505.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lady-s-fashion-shop-colourful-national-costumes-racks-interior-view-clothing-hongkong-china-asia-2000x1263.jpg",
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
+                "thumb": "@PROJECT_PATH@/assets/images/thumb-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumb-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": true
               },
               {
                 "tags": "Beautiful",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
+                "thumb": "@PROJECT_PATH@/assets/images/12-clothes-shop-2000x1330-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/12-clothes-shop-2000x1330.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
-            "spacing": 1,
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
@@ -333,7 +330,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x363.jpg",
+              "src": "@PROJECT_PATH@/assets/images/11517485441956-wedding-checklist-600x635.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -343,13 +340,13 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title1": "",
+          "subtitle1": "",
+          "caption1": "Great Deals On The Latest Brand Products, Limited Time Offer. Trade Assurance. Most Popular. Quality Assured. 100% Refund. Types: Animal Extract, Plant Extracts, Body Weight.<br>.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x600.jpg",
+              "src": "@PROJECT_PATH@/assets/images/11517478592892-home-page-desktop-600x635.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -365,7 +362,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/11517478592904-home-page-desktop-600x635.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -381,7 +378,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x900.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ddca7052-f8dc-44f2-a276-29934b798ac41544184565607-bd03faaf-859a-4809-b1d5-fbb5b1a1ea451541160723095-gap-dkpb-b-600x468.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
